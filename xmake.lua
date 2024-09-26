@@ -1,6 +1,6 @@
 add_repositories("oeo-repo https://github.com/OEOTYAN/xmake-repo.git")
 
-add_requires("oconcurrent_priority_queue v0.1.0")
+add_requires("oconcurrent_priority_queue")
 
 target("timer")
     set_kind("headeronly")
